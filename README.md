@@ -19,3 +19,9 @@ Each project should maintain a README with scope, authority, dependencies, actua
 **Governance:** Estiban Creations is the final approving authority for production spending, publication, brand commitments, contracts and external account changes. THELMA automation operates only within explicitly granted and auditable limits.
 
 **Current baseline date:** 2026-11-17.
+
+## Hosting decision and deployment mapping
+
+Estiban Creations selected **Render** for application hosting. Existing Supabase projects continue to provide PostgreSQL, authentication and storage where applicable. This repository's placement is **Reference archive · no service**. Preserve the index of conversations and evidence. Link deployment decisions and changes from the owning runtime repository.
+
+The GrantOS review verified 27 failed Vercel preview checks across nine commit SHAs, a temporary successful preview checkpoint and a separate production availability block. See the [repository mapping and evidence](docs/RENDER-MIGRATION-MAP.md) for context and release requirements.
